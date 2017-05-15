@@ -10,10 +10,10 @@ NW.js中文文档! 精心翻译,完美排版,实时同步更新! (本文档未�
 * **API** -  JNW.js API
 
 ## 对于开发者(扩展)目录
-* [构建NW.js](For-Developers\Building NW.js.md)
-* [专有编解码器](For-Developers\Enable Proprietary Codecs.md)
+* [构建NW.js](For-Developers\Building-NW.js.md)    
+* [专有编解码器](For-Developers\Enable-Proprietary-Codecs.md)   
 * [资源库列表](For-Developers\Repositories.md)
-* [崩溃机制](For-Developers\Understanding Crash Dump.md)
+* [崩溃机制](For-Developers\Understanding-Crash-Dump.md)             
 
 ## 对于用户(基础)目录
 

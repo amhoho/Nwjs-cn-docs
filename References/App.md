@@ -60,7 +60,7 @@
 ## App.crashRenderer()
 > 用途:**使渲染器进程崩溃**
  
-涉及崩溃机制使用的两个方法 , 参考[崩溃机制](../For-Developers/Understanding Crash Dump.md)特性.     
+涉及崩溃机制使用的两个方法 , 参考[崩溃机制](../For-Developers/Understanding-Crash-Dump.md)特性.     
 
 ## App.getProxyForURL(url)
 > 用途:**通过DOM中加载的 `url` 查询代理信息**

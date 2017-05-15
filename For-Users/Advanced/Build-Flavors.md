@@ -6,4 +6,4 @@ NW.js支持多种构造方式支持应用尺寸大小的需要 . 目前支持的
 * NaCL: 该方式支持本地客户端插件(NaCl) , 但不支持开发工具 . 
 * 通用: 该方式不支持开发工具和NaCl插件 , 也是尺寸最小的构造方式 . 
 
-参考[构造](../../For-Developers/Building NW.js.md#build-flavors) , 如何由源码完成不同方式的构造 . 
+参考[构造](../../For-Developers/Building-NW.js.md#build-flavors) , 如何由源码完成不同方式的构造 . 

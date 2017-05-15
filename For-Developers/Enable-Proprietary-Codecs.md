@@ -120,9 +120,9 @@ ninja -C out/nw ffmpeg
 
 ### 使用专有编解码器构建整个NW.js
 
-如果您不使用官方预制的NW.js，则可以按照以下说明构建启用了专有编解码器的整个NW.js。有关每个步骤的详细信息，请参阅[构建NW.js](Building NW.js.md).  
+如果您不使用官方预制的NW.js，则可以按照以下说明构建启用了专有编解码器的整个NW.js。有关每个步骤的详细信息，请参阅[构建NW.js](Building-NW.js.md).  
 
- **第1步:** 构建前提并获取 NW.js 源代码. 详细参考[构建NW.js](Building NW.js.md)文件的 *构建前提* 和 *获取代码* 章节
+ **第1步:** 构建前提并获取 NW.js 源代码. 详细参考[构建NW.js](Building-NW.js.md)文件的 *构建前提* 和 *获取代码* 章节
 
  **第2步:** 配置GN时，将 `ffmpeg_branding`设置为 `Chrome`.
 

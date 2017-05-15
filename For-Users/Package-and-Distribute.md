@@ -4,7 +4,7 @@
 
 可以使用以下工具自动完成打包NW.js应用进行发布 . 
 
-* [nwjs-builder-phoenix](https://github.com/evshiron/nwjs-builder-phoenix) (recommended)
+* [nwjs-builder-phoenix](https://github.com/evshiron/nwjs-builder-phoenix) (推荐)
 * [nw-builder](https://github.com/nwjs-community/nw-builder)
 
 或者可以使用以下步骤手动构造应用 . 
@@ -33,7 +33,7 @@
 
 ## 准备NW.js
 
-应用可以选择不同的NW.js构造方式 , NW.js提供多种[构造方式](Advanced/Build-Flavors.md)以便满足不同的需求以及应用大小 . 选择适当的构造方式或者[源码构造](../For-Developers/Building NW.js.md)
+应用可以选择不同的NW.js构造方式 , NW.js提供多种[构造方式](Advanced/Build-Flavors.md)以便满足不同的需求以及应用大小 . 选择适当的构造方式或者[源码构造](../For-Developers/Building-NW.js.md)
 
 应用重新分配NW.js包含的所有文件 , 除了SDK构造方式包含的 `nwjc`, `payload`以及 `chromedriver` . 
 
