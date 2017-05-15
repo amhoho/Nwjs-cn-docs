@@ -29,7 +29,7 @@ NW.js中文文档! 精心翻译,完美排版,实时同步更新! (本文档未�
 * [开发工具与调试](For-Users\Debugging-with-DevTools.md)
 * [自动更新](For-Users\Advanced\Autoupdates.md)
 * [打包与发布](For-Users\Package-and-Distribute.md)
-* [提交应用至Mac App Store](For-Users\Advanced\Support for Mac App Store.md)
+* [提交应用至Mac App Store](For-Users\Advanced\Support-for-Mac-App-Store.md)
 * [NW.js安全性](For-Users\Advanced\Security-in-NW.js.md)
 * [JavaScript环境](For-Users\Advanced\JavaScript-Contexts-in-NW.js.md)
 * [保护JavaScript源代码](For-Users\Advanced\Protect-JavaScript-Source-Code.md)
