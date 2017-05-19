@@ -20,7 +20,7 @@ HTML代码中指定背景颜色参数 `alpha`:
 <body style="background-color:rgba(0,0,0,0);">
 ```
 
-配置文件中设置[`transparent`属性](../../References/Manifest-Format.md#transparent)为 `true`:
+配置文件中设置[`transparent`属性](../../References/Manifest-Format.md#transparent)为`true`: 
 ```json
   "window": {
     "frame": false,
