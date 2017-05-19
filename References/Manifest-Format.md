@@ -79,7 +79,7 @@
 * `%ver`: 替换配置文件中的`version`字段 . 
 * `%nwver`: 替换NW.js版本 . 
 * `%webkit_ver`: 替换WebKit引擎版本 . 
-* `%osinfo`: 替换系统以及CUP信息 . 
+* `%osinfo`: 替换系统以及CPU信息 . 
 
 ### node-remote
 > 属性:**从远程页面启用Node**
