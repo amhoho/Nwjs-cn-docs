@@ -8,7 +8,7 @@
 多数浏览器惯用做法以及好的处理方式 , 如下:
 
 * 对象属性替换 , 库扩展或者简单脚本(如[Prototype](http://prototypejs.org/)) , 不同窗口之间使用相似对象将不会受到影响 . 
-* 单个窗口范围内程序错误(如[构造对象前缺少new](http://ejohn.org/blog/simple-class-instantiation/))或者bug不会影响到其他窗口 . 
+* 单个窗口范围内程序错误(如[构建对象前缺少new](http://ejohn.org/blog/simple-class-instantiation/))或者bug不会影响到其他窗口 . 
 * 其他窗口中恶意应用不能访问重要数据 . 
 
 当脚本访问其他环境中的对象或者函数 , JS引擎将提供临时环境处理 , 完成之后立即离开 . 
@@ -195,7 +195,7 @@ console.log(myfunc.constructor === iframeContext.Function); // false
 
 ### `obj.__proto__`问题
 
-`obj.__proto__`访问对象属性会引发问题 . 比较全局对象构造函数或者使用 `instanceof`将会引起错误结果 . 
+`obj.__proto__`访问对象属性会引发问题 . 比较全局对象构建函数或者使用 `instanceof`将会引起错误结果 . 
 
 ### 第三方库问题
 

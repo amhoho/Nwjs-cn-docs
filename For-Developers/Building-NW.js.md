@@ -121,19 +121,19 @@ cd src
 ninja -C out/Release node
 ```
 
-构建Node之后 , 最后需要拷贝Node构造的二进制文件到nwjs目录中:
+构建Node之后 , 最后需要拷贝Node构建的二进制文件到nwjs目录中:
 
 ```bash
 cd src
 ninja -C out/nw copy_node
 ```
 
-## 构造方式
+## 构建方式
 
 * Standard: `nwjs_sdk=false`
 * SDK: `enable_nacl=true`
 
-有关不同构造方式之间的区别，请参阅[对于用户目录中的构造方式](../For-Users/Advanced/Build-Flavors.md)章节                      
+有关不同构建方式之间的区别，请参阅[对于用户目录中的构建方式](../For-Users/Advanced/Build-Flavors.md)章节                      
 
 ## 专有编解码器
 

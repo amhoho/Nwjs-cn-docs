@@ -7,7 +7,7 @@
 * [nwjs-builder-phoenix](https://github.com/evshiron/nwjs-builder-phoenix) (推荐)
 * [nw-builder](https://github.com/nwjs-community/nw-builder)
 
-或者可以使用以下步骤手动构造应用 . 
+或者可以使用以下步骤手动构建应用 . 
 
 ## 准备应用
 
@@ -29,13 +29,13 @@
 	在大多数Linux系统以及部分Mac OS X系统中 , 文件系统是大小写敏感的 . 既 `test.js`和 `Test.js`是不同的文件 . 确保路径以及文件名使用正确 . 
 
 !!! 注 "Windows系统中的长路径"
-	Windows系统中应用中使用的路径最大长度不能超过260个字符 . 如果过长 , 打包过程将会报错 . 该问题通常发生在使用低于3.0版本的NPM安装依赖包的过程 . 为了避免这个问题的发生 , 建议在根目录中构造引用 , 比如 `C:\build\` . 
+	Windows系统中应用中使用的路径最大长度不能超过260个字符 . 如果过长 , 打包过程将会报错 . 该问题通常发生在使用低于3.0版本的NPM安装依赖包的过程 . 为了避免这个问题的发生 , 建议在根目录中构建引用 , 比如 `C:\build\` . 
 
 ## 准备NW.js
 
-应用可以选择不同的NW.js构造方式 , NW.js提供多种[构造方式](Advanced/Build-Flavors.md)以便满足不同的需求以及应用大小 . 选择适当的构造方式或者[源码构造](../For-Developers/Building-NW.js.md)
+应用可以选择不同的NW.js构建方式 , NW.js提供多种[构建方式](Advanced/Build-Flavors.md)以便满足不同的需求以及应用大小 . 选择适当的构建方式或者[源码构建](../For-Developers/Building-NW.js.md)
 
-应用重新分配NW.js包含的所有文件 , 除了SDK构造方式包含的 `nwjc`, `payload`以及 `chromedriver` . 
+应用重新分配NW.js包含的所有文件 , 除了SDK构建方式包含的 `nwjc`, `payload`以及 `chromedriver` . 
 
 
 ## 打包引用

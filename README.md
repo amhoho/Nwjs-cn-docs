@@ -26,7 +26,7 @@ NW.js中文文档! 精心翻译,完美排版,实时同步更新! (本文档未�
 
 * [快速入门](For-Users/Getting-Started.md)
 * [常见问题](For-Users/FAQ.md)
-* [构造方式](For-Users/Advanced/Build-Flavors.md)
+* [构建方式](For-Users/Advanced/Build-Flavors.md)
 * [内容验证](For-Users/Advanced/Content-Verification.md)
 * [自定义菜单](For-Users/Advanced/Customize-Menubar.md)
 * [透明窗体](For-Users/Advanced/Transparent-Window.md)

@@ -2,7 +2,7 @@
 
 * [快速入门](Getting-Started.md)
 * [常见问题](FAQ.md)
-* [构造方式](Advanced/Build-Flavors.md)
+* [构建方式](Advanced/Build-Flavors.md)
 * [内容验证](Advanced/Content-Verification.md)
 * [自定义菜单](Advanced/Customize-Menubar.md)
 * [透明窗体](Advanced/Transparent-Window.md)

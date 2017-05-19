@@ -1,8 +1,8 @@
 # 开发工具与调试
 ---
 
-!!! "仅适用SDK构造方式"需知:
-	开发工具只能在SDK构造方式中使用 , 参考[SDK构造](Advanced/Build-Flavors.md) . 推荐使用SDK构造方式进行开发和测试 , 其他构造方式发布应用 . 
+!!! "仅适用SDK构建方式"需知:
+	开发工具只能在SDK构建方式中使用 , 参考[SDK构建](Advanced/Build-Flavors.md) . 推荐使用SDK构建方式进行开发和测试 , 其他构建方式发布应用 . 
 
 ## Open Developer Tools 开启开发工具
 
@@ -31,4 +31,4 @@ NW.js默认进行[独立模式](Advanced/JavaScript-Contexts-in-NW.js.md#separat
 https://s3-us-west-2.amazonaws.com/nwjs/sample/react-app.zip
 https://s3-us-west-2.amazonaws.com/nwjs/sample/react-devtools.zip
 
-解压文件 , 下载SDK构造方式的NW.js , 并运行nw.exe --load-extension=path/to/devtools path/to/app/folder
+解压文件 , 下载SDK构建方式的NW.js , 并运行nw.exe --load-extension=path/to/devtools path/to/app/folder

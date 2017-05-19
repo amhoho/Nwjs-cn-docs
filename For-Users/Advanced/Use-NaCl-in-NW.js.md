@@ -1,6 +1,6 @@
 # 在NW.js中使用NaCl
 
-NaCl需要在SDK和NaCl构造方式的NW中使用 , 参考[构造方式](Build-Flavors.md) .      
+NaCl需要在SDK和NaCl构建方式的NW中使用 , 参考[构建方式](Build-Flavors.md) .      
 
 NW.js同Chromium一样支持NaCl(原生客户端)以及PNaCl(便携原生客户端) . 应用可以嵌入NaCl和PNaCl .
 

@@ -3,7 +3,7 @@
 
 ### 编译
 
-JS源代码编译为本地代码需要使用 `nwjc`工具 , 同时需要提供SDK构造方式的NW . 
+JS源代码编译为本地代码需要使用 `nwjc`工具 , 同时需要提供SDK构建方式的NW . 
 
 ```bash
 nwjc source.js binary.bin

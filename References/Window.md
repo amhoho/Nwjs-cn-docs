@@ -206,7 +206,7 @@ win.close();
 ## win.toggleKioskMode()
 > 用途:**窗口切换 `Kiosk`模式**
 
-## win.showDevTools([iframe], [callback]) _该方法仅支持SDK构造方式中使用_
+## win.showDevTools([iframe], [callback]) _该方法仅支持SDK构建方式中使用_
 > 用途:**打开调试工具**
 
 * `iframe` String 或 HTMLIFrameElement - (可选) 要被检查的`<iframe> `的id或Element. 调试工具默认以独立窗口显示
@@ -218,7 +218,7 @@ win.close();
 
 有关如何在webview中或为webview打开调试工具,请参阅[webview 标签](webview-Tag.md)  
 
-## win.closeDevTools() _该方法仅支持SDK构造方式中使用_
+## win.closeDevTools() _该方法仅支持SDK构建方式中使用_
 > 用途:**关闭调试工具**
 
 ## win.getPrinters(callback)
@@ -226,7 +226,7 @@ win.close();
 
 JSON对象中的设备名可使用于 `nw.Window.print()`方法中
 
-## win.isDevToolsOpen() _该方法仅支持SDK构造方式中使用_
+## win.isDevToolsOpen() _该方法仅支持SDK构建方式中使用_
 > 用途:**判断开发工具是否已打开,细节详见[`win.showDevTools()`](#winshowdevtoolsiframe-callback)**
 
 ## win.print(options)

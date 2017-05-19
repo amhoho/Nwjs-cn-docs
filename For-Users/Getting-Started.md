@@ -6,7 +6,7 @@
 您可以从[官网](http://nwjs.io)获取最新版本的文件,或通过[源代码构建](../For-Developers/Building-NW.js.md).         
 
 !!! 注意 :
-    推荐选择SDK构建方式开发应用 , 这样就可以使用开发工具进行调试 , 参考[构建方式](Advanced/Build-Flavors.md)章节查看构造方式之间的区别.
+    推荐选择SDK构建方式开发应用 , 这样就可以使用开发工具进行调试 , 参考[构建方式](Advanced/Build-Flavors.md)章节查看构建方式之间的区别.
 
 ## 开发NW.js应用
 
