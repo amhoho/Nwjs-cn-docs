@@ -64,7 +64,7 @@ cd /path/to/your/app
 
 ### 例子 2 - 使用 NW.js APIs
 
-NW.js中的APIs都被加载到 `nw`全局对象中 , 并能够在JavaScript代码中直接使用 . 更多细节请参考[API文档](../index.md#references)   
+NW.js中的APIs都被加载到 `nw`全局对象中 , 并能够在JavaScript代码中直接使用 . 更多细节请参考[API文档](../References)   
 
 本例子以 `index.html`为例展示了如何创建应用菜单:
 

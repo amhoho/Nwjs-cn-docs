@@ -107,7 +107,7 @@ Node模块中的相对路径相对于当前模块的路径 . 与Node.js中相对
 
 ## 混合环境模式
 
-当使用[`--mixed-context`](../../References/Command-Line-Options.md#mixedcontext)命令行参数运行NW.js时 , 当浏览器环境被创建的同时创建了Node环境 . 
+当使用[`--mixed-context`](../../References/Command-Line-Options.md#--mixed-context)命令行参数运行NW.js时 , 当浏览器环境被创建的同时创建了Node环境 . 
 
 ### 混合环境模式中加载脚本
 

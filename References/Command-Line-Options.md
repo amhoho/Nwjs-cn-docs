@@ -15,7 +15,7 @@
 
 ## `--mixed-context`
 
-NW.js使用[混合环境模式](../For-Users/Advanced/JavaScript-Contexts-in-NW.js.md#mixed-context-mode) 代替独立模式运行 . 
+NW.js使用[混合环境模式](../For-Users/Advanced/JavaScript-Contexts-in-NW.js.md#mixed-context-mode) 代替独立环境模式运行 . 
 
 ## `--nwapp`
 

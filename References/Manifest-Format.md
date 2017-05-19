@@ -61,12 +61,12 @@
 ### window
 > 属性:**窗体样式控制**
 
-* Object - 详见[窗体子字段](#window-subfields)章节.     
+* Object - 详见[窗体子字段](#窗口子字段)章节                
 
 ### webkit
 > 属性:**WebKit特性控制**
 
-* Object - 详见[WebKit子字段](#window-subfields)章节. 
+* Object - 详见[WebKit子字段](#webkit子字段)章节         
 
 ### user-agent
 > 属性:**重写应用请求页面中的 `User-Agent`信息**

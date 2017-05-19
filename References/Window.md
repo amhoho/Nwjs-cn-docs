@@ -58,7 +58,7 @@ nw.Window.open('https://github.com/nwjs/nw.js', {}, function(new_win) {
 > 用途:**打开并加载 `url`至新窗口**
 
 * `url` String - 加载至新开窗口的 `url`
-* `options` Object - (可选)  属性详情请查看[窗口子字段](Manifest-Format.md#window-subfields):  
+* `options` Object - (可选)  属性详情请查看[窗口子字段](Manifest-Format.md#窗口子字段):  
     - `new_instance` Boolean - (可选) 是否在单独的渲染过程中打开新窗口
     - `inject_js_start` String - (可选)  加载文档之前要执行的脚本,更多细节参阅 [Manifest format](Manifest-Format.md#inject_js_start)
     - `inject_js_end` String - (可选)  加载文档之后要执行的脚本. 更多细节参阅 [Manifest format](Manifest-Format.md#inject_js_end)
@@ -469,7 +469,7 @@ nw.Window.get().on('close', function() {
     * `forceDownload()` : 链接是可下载的，或者由外部程序打开
     * `forceNewWindow()` : 新窗口中打开
     * `forceNewPopup()` : 新弹出窗口中打开
-    * `setNewWindowManifest(m)` : 控制新弹出窗口中的参数 . `m`对象格式等同配置文件中[Window子字段](Manifest-Format.md#window-subfields)    
+    * `setNewWindowManifest(m)` : 控制新弹出窗口中的参数 . `m`对象格式等同配置文件中[Window子字段](Manifest-Format.md#窗口子字段)    
 
 例如使用系统默认浏览器打开指定URL:
 

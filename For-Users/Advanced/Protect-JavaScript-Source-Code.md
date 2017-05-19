@@ -16,7 +16,7 @@ nwjc source.js binary.bin
 ```javascript
 nw.Window.get().evalNWBin(frame, 'binary.bin');
 ```
-[win.evalNWBin()](../../References/Window.md#winevalnwbin)方法中的参数与 `Window.eval()`方法相同 , 第一个参数为目标frame , `null`为主frame , 第二个参数为已编译的bin文件 . 
+[win.evalNWBin()](../../References/Window.md#winevalnwbinframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-pathframe-path)方法中的参数与 `Window.eval()`方法相同 , 第一个参数为目标frame , `null`为主frame , 第二个参数为已编译的bin文件 . 
 
 ### 从远程加载已编译JS文件
 可以从远程（例如使用AJAX）获取已编译的JavaScript，并且即时执行。
@@ -32,8 +32,8 @@ xhr.onload = () => {
 }
 ```
 
-	已编译代码在[浏览器环境](JavaScript-Contexts-in-NW.js.md#browser-context)中执行 . 可以像其他运行在浏览器环境中的其他脚本 , 就像您使用任何Web API(如DOM)以及[NW.js API和Node API](JavaScript-Contexts-in-NW.js.md#access-nodejs-and-nwjs-api-in-browser-context) . 
-
+	已编译代码在[浏览器环境](JavaScript-Contexts-in-NW.js.md#浏览器环境)中执行 . 可以像其他运行在浏览器环境中的其他脚本 , 就像您使用任何Web API(如DOM)以及[NW.js API和Node API](avaScript-Contexts-in-NW.js.md#node环境访问浏览器api和nwjs的api)                                    
+	      
 ### 已知问题
 
 已编译代码不支持跨平台也不兼容不同版本的NW.js的版本,因此在打包应用时需要在各自系统平台中运行`nwjc` . 
