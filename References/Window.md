@@ -474,14 +474,12 @@ nw.Window.get().on('close', function() {
 例如使用系统默认浏览器打开指定URL:
 
 ```javascript
-
 nw.Window.get().on('new-win-policy', function(frame, url, policy) {
   // 不打开窗口
   policy.ignore();
   // 在系统默认浏览器打开
   nw.Shell.openExternal(url);
 });
-
 ```
 
 ## 事件: navigation (frame, url, policy)

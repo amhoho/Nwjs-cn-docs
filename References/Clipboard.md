@@ -51,21 +51,17 @@ clipboard.clear();
 
 * `clipboardDataList` Array -  要写入剪贴板的多个内含 `data`, `type` 和 `raw`的JSON对象组成的数组数据. 请参阅 [clip.set(clipboardData)](#clipsetclipboardData) 和 [clip.set(data, [type, [raw]])](#clipsetdata-type-raw)章节
 
-可以使用此方法同时将多种类型的数据写入剪贴板.
-
-例如: 将图像和指向图像的 `<img> ` 写入剪贴板:
+可以使用此方法同时将多种类型的数据写入剪贴板. 例如: 将图像和指向图像的 `<img>` 写入剪贴板:
 
 ```javascript
 var fs = require('fs');
 var path = require('path');
-
 //使用绝对路径以便其他应用能够使用
 var pngPath = path.resolve('nw.png');
 //读取图片文件并通过base64进行编码
 var data = fs.readFileSync(pngPath).toString('base64');
 //将文件路径转换为URL
 var html = '<img src="file:///' + encodeURI(data.replace(/^\//, '')) + '"> ';
-
 var clip = nw.Clipboard.get();
 // 将PNG和HTML写入剪贴板
 clip.set([

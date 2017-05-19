@@ -1,7 +1,7 @@
 # Shell桌面集成
 >`Shell`是完成桌面相关工作的API集合
 
-## Synopsis
+## 示例
 
 ```javascript
 // 默认浏览器中打开指定URL

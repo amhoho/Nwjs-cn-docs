@@ -138,7 +138,7 @@ ninja -C out/nw copy_node
 ## 专有编解码器
 
 由于许可证问题，NW.js的预构建二进制文件不支持如H.264等专有编解码器。因此你无法使用 `<audio>` 和 `<video>`标签播放mp3/mp4文档. 
-要使用这些媒体，您必须通过按照[专有编解码器](Enable Proprietary Codecs.md)章节从源代码中构建NW.js   
+要使用这些媒体，您必须通过按照[专有编解码器](Enable-Proprietary-Codecs.md)章节从源代码中构建NW.js   
 
 ## 快速构建
 
