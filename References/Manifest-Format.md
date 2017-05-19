@@ -163,7 +163,7 @@
 * `resizable` -> `true`
 * `show` -> `true`
 
-所有窗口子字段可以使用[`new-win-policy`事件](Window.md#event-new-win-policy-frame-url-policy)重写 . 
+所有窗口子字段可以使用[`new-win-policy`事件](Window.md#事件-new-win-policy-frame-url-policy)重写 . 
 
 ### id
 > 属性:**内含窗口尺寸与位置的状态的窗口ID,打开同ID的窗口时会还原该状态**
